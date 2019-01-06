@@ -1,3 +1,5 @@
+pub use serialport;
+
 mod button;
 pub mod command;
 pub mod device;
