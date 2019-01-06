@@ -1,0 +1,19 @@
+[package]
+name = "insteon-serial"
+version = "0.1.0"
+authors = ["Alex Hamilton <alex.hamilton@ou.edu>"]
+edition = "2018"
+description = "Insteon PLM serial programming library."
+license = "Apache-2.0/MIT"
+readme = "README.md"
+repository = "https://github.com/Aehmlo/insteon-serial"
+keywords = ["insteon", "serial"]
+categories = ["api-bindings"]
+
+[badges]
+travis-ci = { repository = "Aehmlo/insteon-serial", branch = "master" }
+
+maintenance = { status = "experimental" }
+
+[dependencies]
+serialport = "3.2.0"
